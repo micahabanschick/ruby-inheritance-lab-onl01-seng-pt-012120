@@ -1,12 +1,12 @@
 class User 
   
-  attr_accessor :firstname, :lastname
+  attr_accessor :first_name, :last_name
   
   @@all = []
   
   def initialize(firstname, lastname)
-    @firstname = firstname
-    @lastname = lastname 
+    @first_name = firstname
+    @last_name = lastname 
     self.save
   end 
   
