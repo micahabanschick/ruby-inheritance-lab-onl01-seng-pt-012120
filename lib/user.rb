@@ -15,7 +15,7 @@ class User
   end 
   
   def self.all 
-    @@all 
+    @@all.dup.freeze 
   end 
   
 end
