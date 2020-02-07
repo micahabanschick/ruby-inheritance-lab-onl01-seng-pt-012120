@@ -7,7 +7,7 @@ class User
   def initialize(firstname, lastname)
     @first_name = firstname
     @last_name = lastname 
-    self.save
+    save
   end 
   
   def save
